@@ -7,6 +7,11 @@ Using it on any website you do not own or have **explicit written permission** t
 
 By using this tool, you confirm that you are performing a legal authorized test and will not misuse it.
 
+Run the Tool
+
+python3 wppasswordbruteforce.py https://example.com/xmlrpc.php thepasswordlist validusername
+
+
 ## What Is This Tool?
 
 This is a fast and powerful **XML-RPC brute force** tool specifically designed for WordPress sites.  
