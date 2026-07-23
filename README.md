@@ -7,9 +7,13 @@ Using it on any website you do not own or have **explicit written permission** t
 
 By using this tool, you confirm that you are performing a legal authorized test and will not misuse it.
 
-Run the Tool
+<h1>RUN THIS TOOL</h1>
 
-`python3 wppasswordbruteforce.py https://example.com/xmlrpc.php thepasswordlist.txt validusername`
+`
+python3 wppasswordbruteforce.py https://example.com/xmlrpc.php thepasswordlist.txt validusername
+                                                                                                                      `
+
+
 
 
 ## What Is This Tool?
