@@ -9,7 +9,7 @@ By using this tool, you confirm that you are performing a legal authorized test 
 
 Run the Tool
 
-python3 wppasswordbruteforce.py https://example.com/xmlrpc.php thepasswordlist validusername
+python3 wppasswordbruteforce.py https://example.com/xmlrpc.php thepasswordlist.txt validusername
 
 
 ## What Is This Tool?
@@ -37,7 +37,7 @@ It is significantly faster than the normal login form because it uses the `wp.ge
 
 ## Features
 
-- Supports multiple usernames in one run
+- One username multiple passwords are run simultaneously
 - Real-time progress with color output
 - Saves successful credentials to `found.txt`
 - Handles common WordPress login forms
@@ -54,3 +54,5 @@ Copy the entire code below into a file named `passbruteforcewp.py`
 ### 3. Install Dependencies (only once)
 ```bash
 pip install requests
+
+ 
